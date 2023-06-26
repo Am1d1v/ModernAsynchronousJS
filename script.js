@@ -3,9 +3,13 @@
 
 async function getProducts(){
     
-    const res = await fetch('https://dummyjson.com/products');
-    const data = await res.json();
-    console.log(data);
+    const productsResponse = await fetch('https://dummyjson.com/products');
+    const {products} = await productsResponse.json();
+    console.log(products);
+
+    const productResponse = await fetch('https://dummyjson.com/products/' + products[0].id);
+    const product = await productResponse.json();
+    console.log(product);
 }
 
 getProducts();
