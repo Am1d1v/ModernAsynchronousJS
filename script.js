@@ -1,10 +1,11 @@
 
 
 
-function getProducts(){
-    fetch('https://dummyjson.com/products')
-    .then(Response => Response.json())
-    .then(data => console.log(data))
+async function getProducts(){
+    
+    const res = await fetch('https://dummyjson.com/products');
+    const data = await res.json();
+    console.log(data);
 }
 
 getProducts();
