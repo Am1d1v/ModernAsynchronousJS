@@ -1,6 +1,8 @@
 
 
 
+/*
+
 async function getProducts(){
 
     try {
@@ -33,3 +35,5 @@ async function getProducts(){
 
 getProducts();
 console.log('end');
+
+*/
