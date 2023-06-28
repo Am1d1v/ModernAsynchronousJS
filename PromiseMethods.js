@@ -1,5 +1,7 @@
 
 
+/*
+
 async function getProduct(id){
     const response = await fetch('https://dummyjson.com/products/' + id);
     return response.json();
@@ -36,3 +38,5 @@ async function main() {
 }
 
 main();
+
+*/
