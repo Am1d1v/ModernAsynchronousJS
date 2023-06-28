@@ -1,6 +1,8 @@
 
 
 
+/*
+
 function getMyCoordinates(){
  
     return new Promise((resolve, reject) => {
@@ -36,3 +38,5 @@ try{
 }
 
 getMyCity();
+
+*/

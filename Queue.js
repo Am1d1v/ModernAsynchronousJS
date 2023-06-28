@@ -13,6 +13,5 @@ console.log('1')
 asyncArrow().then(data => { 
     console.log(data)
 
-    
+    console.log('2');
 });
-console.log('2');
